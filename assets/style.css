@@ -169,6 +169,9 @@ img {
 
 .home {
   display: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
 }
 
 /* DOM Class style*/
@@ -251,4 +254,25 @@ img {
 .apps .navigation {
   margin-bottom: 0;
   margin-top: 25px;
+}
+
+/*Respnisve to different screen size*/
+
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+  /* lock screen*/
+  .frame {
+    width: 70%;
+  }
+  .lock-screen {
+    position: relative;
+  }
+  .home{
+    position: relative;
+  }
+  .featured-app {
+    position: absolute;
+    top: 95%;
+    width: 100%;
+  }
 }
