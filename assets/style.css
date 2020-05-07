@@ -67,6 +67,7 @@ body .wrapper {
   box-sizing: border-box;
   padding: 10px 15px;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .lock-screen {
@@ -177,4 +178,77 @@ img {
 .show-homeScreen {
   display: block !important;
   transition: all 3s ease;
+}
+
+.google-search {
+  margin: 300px auto 0;
+  width: 100%;
+  height: 35px;
+  background-color: #ffff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.google-search img {
+  height: 18px;
+}
+.google-search .google-logo {
+  margin-right: auto;
+}
+.google-search p {
+  margin-right: 10px;
+  color: rgba(98, 101, 100, 0.801);
+  font-size: 14px;
+}
+
+.navigation {
+  color: #fff;
+  margin-bottom: 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2px auto 0;
+}
+.navigation span {
+  font-size: 18px;
+}
+.navigation .mdi-menu {
+  transform: rotate(90deg);
+}
+.apps {
+  margin: 1px auto 0;
+}
+.shorcut-apps {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 9px;
+  margin-top: 25px;
+}
+.shorcut-apps p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.781);
+  margin-top: 10px;
+  text-align: center;
+}
+.shorcut-apps div {
+  display: flex;
+  flex-direction: column;
+}
+.apps img {
+  height: 43px;
+}
+.base-apps {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.apps .navigation {
+  margin-bottom: 0;
+  margin-top: 25px;
 }
