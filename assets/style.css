@@ -172,9 +172,9 @@ img {
 
 /* DOM Class style*/
 .hide-lockScreen {
-  display: none;
+  display: none !important;
 }
 .show-homeScreen {
-  display: block;
+  display: block !important;
   transition: all 3s ease;
 }
