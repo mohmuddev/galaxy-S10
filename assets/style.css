@@ -152,16 +152,29 @@ img {
   margin-bottom: 20px;
   text-align: center;
   color: #fff;
-  font-size: 13px;
+  font-size: 12.5px;
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
 }
-.featured-app{
+.featured-app {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.featured-app img{
+.featured-app img {
   height: 30px;
+}
+
+.home {
+  display: none;
+}
+
+/* DOM Class style*/
+.hide-lockScreen {
+  display: none;
+}
+.show-homeScreen {
+  display: block;
+  transition: all 3s ease;
 }
