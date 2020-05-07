@@ -3,10 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="mohamud dev" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdn.materialdesignicons.com/5.1.45/css/materialdesignicons.min.css"
+    />
     <title>Galaxy S10</title>
   </head>
   <body>
+    <section class="wrapper">
+      <div class="frame">
+        <div class="screen">
+          <div class="status-bar">
+            <span class="time-wifi">
+              <span class="time">1:45</span>
+            </span>
+            <span class="mdi mdi-volume-off" id="sound"></span>
+            <span class="mdi mdi-wifi" id="wifi"></span>
+            <img src="./assets/img/network.svg" alt="network" />
+            <span class="battery-percentage">100%</span>
+            <span class="mdi mdi-battery" id="battery"></span>
+            <div class="front-camera">
+              <div class="camera"></div>
+              <div class="flash"></div>
+            </div>
+          </div>
+          <div class="lock-screen"></div>
+        </div>
+        <div class="btn-1"></div>
+        <div class="btn-2"></div>
+        <div class="btn-3"></div>
+      </div>
+    </section>
     <script src="./index.js"></script>
   </body>
 </html>
