@@ -289,12 +289,12 @@ img {
   .apps {
     position: absolute;
     margin-bottom: 0;
-    top: 80%;
+    top: 100%;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .frame {
-    width: 95% !important;
+    width: 80% !important;
   }
 }
