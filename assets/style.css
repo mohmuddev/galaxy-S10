@@ -32,6 +32,7 @@ body .wrapper {
   position: absolute;
   background-color: #626564;
   border-radius: 20%;
+  cursor: pointer;
 }
 .btn-1 {
   height: 80px !important;
@@ -75,6 +76,7 @@ body .wrapper {
   padding: 0;
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 /*phone status bar*/
@@ -149,7 +151,9 @@ img {
   padding: 0;
 }
 .info {
-  margin-top: 320px;
+  position: absolute;
+  top: 90%;
+  width: 100%;
   margin-bottom: 20px;
   text-align: center;
   color: #fff;
@@ -159,6 +163,9 @@ img {
   -webkit-user-select: none;
 }
 .featured-app {
+  position: absolute;
+  top: 95%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -173,6 +180,8 @@ img {
   -khtml-user-select: none;
   -webkit-user-select: none;
   position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 /* DOM Class style*/
@@ -185,7 +194,7 @@ img {
 }
 
 .google-search {
-  margin: 300px auto 0;
+  /* margin: 300px auto 0; */
   width: 100%;
   height: 35px;
   background-color: #ffff;
@@ -222,10 +231,12 @@ img {
 .navigation .mdi-menu {
   transform: rotate(90deg);
 }
-/* .apps {
+.apps {
   margin: 1px auto 0;
   width: 100%;
-} */
+  position: absolute;
+  top: 55%;
+}
 .shorcut-apps {
   display: flex;
   justify-content: space-between;
@@ -281,32 +292,22 @@ img {
     top: 95%;
     width: 100%;
   }
-  .info {
-    position: absolute;
-    top: 60%;
-    width: 100%;
-  }
 
   /*home screen*/
-  .home {
-    position: relative;
-  }
   .apps {
-    position: absolute;
-    margin-bottom: 0;
-    top: 90%;
+    top: 60%;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .frame {
-    width: 75% !important;
+    width: 76% !important;
   }
   .info {
     margin-top: 0 !important;
     top: 90%;
   }
-  .google-search {
-    margin-top: 350px !important;
+  .apps {
+    top: 56%;
   }
 }
