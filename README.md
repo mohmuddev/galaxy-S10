@@ -1,2 +1,2 @@
-# galaxy-s10-Plus
+# UI/UX Galaxy-s10-Plus
 Preview https://mohmuddev.github.io/galaxy-s10/
