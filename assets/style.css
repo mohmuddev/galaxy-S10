@@ -277,7 +277,9 @@ img {
     width: 100%;
   }
   .info {
-    margin-top: 340px;
+    position: absolute;
+    top: 60%;
+    width: 100%;
   }
 
   /*home screen*/
@@ -287,12 +289,12 @@ img {
   .apps {
     position: absolute;
     margin-bottom: 0;
-    top: 95%;
+    top: 80%;
   }
 }
 
-@media only screen and (max-width:425px){
+@media only screen and (max-width: 425px) {
   .frame {
     width: 95% !important;
-  } 
+  }
 }
