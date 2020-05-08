@@ -172,6 +172,7 @@ img {
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
+  position: relative;
 }
 
 /* DOM Class style*/
@@ -221,10 +222,10 @@ img {
 .navigation .mdi-menu {
   transform: rotate(90deg);
 }
-.apps {
+/* .apps {
   margin: 1px auto 0;
   width: 100%;
-}
+} */
 .shorcut-apps {
   display: flex;
   justify-content: space-between;
@@ -242,9 +243,13 @@ img {
   display: flex;
   flex-direction: column;
 }
-.apps img {
+.shorcut-apps img {
   height: 43px;
 }
+.base-apps img {
+  height: 43px;
+}
+
 .base-apps {
   margin-top: 30px;
   width: 100%;
@@ -252,9 +257,9 @@ img {
   justify-content: space-between;
 }
 
-.apps .navigation {
+.navigation {
   margin-bottom: 0;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 /*Respnisve to different screen size*/
@@ -289,12 +294,19 @@ img {
   .apps {
     position: absolute;
     margin-bottom: 0;
-    top: 100%;
+    top: 90%;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .frame {
     width: 75% !important;
+  }
+  .info {
+    margin-top: 0 !important;
+    top: 90%;
+  }
+  .google-search {
+    margin-top: 400px !important;
   }
 }
