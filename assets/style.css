@@ -196,7 +196,7 @@ img {
   padding: 0 10px;
 }
 .google-search img {
-  height: 18px;
+  height: 18px !important;
 }
 .google-search .google-logo {
   margin-right: auto;
@@ -223,6 +223,7 @@ img {
 }
 .apps {
   margin: 1px auto 0;
+  width: 100%;
 }
 .shorcut-apps {
   display: flex;
@@ -267,12 +268,26 @@ img {
   .lock-screen {
     position: relative;
   }
-  .home{
+  .home {
     position: relative;
   }
   .featured-app {
     position: absolute;
     top: 95%;
     width: 100%;
+  }
+  .info {
+    position: absolute;
+    top: 90%;
+  }
+
+  /*home screen*/
+  .home {
+    position: relative;
+  }
+  .apps {
+    position: absolute;
+    margin-bottom: 0;
+    top: 95%;
   }
 }
